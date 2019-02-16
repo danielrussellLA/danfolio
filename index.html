@@ -1,15 +1,79 @@
 <html>
 <head>
-    <style>
-        canvas {
-            display: block;
-            margin: auto;
-            height: 800px !important;
-            width: 800px !important;
-        }
-    </style>
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta property="og:url" content="https://engineeringdan.com">
+    <meta property="og:title" content="Daniel Russell - Software Engineer">
+    <meta property="og:image" content="https://engineeringdan.com/style/assets/venice-cover-1.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Based in Los Angeles, CA, I'm currently the lead engineer on Startpage.com - the world's most private search engine. Specialist in search and online advertising - I've contributed to open source advertising software projects like Prebid.js. I am passionate about building a culture dedicated to creating reproducable, test driven solutions that help teams thrive and deliver high-quality features on time.">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="./style/index.css" rel="stylesheet" />
+    <link href="./style/header.css" rel="stylesheet" />
+    <link href="./style/about.css" rel="stylesheet" />
+    <link href="./style/portfolio.css" rel="stylesheet" />
+    <link href="./style/footer.css" rel="stylesheet" />
 </head>
 <body>
+
+    <div class="header">
+        <div class="header-overlay"></div>
+        <div class="header-links">
+            <a class="header-link__github" href="https://github.com/danielrussellLA" target="_blank"></a>
+            <a class="header-link__linkedin" href="https://www.linkedin.com/in/danielrussellla" target="_blank"></a>
+            <a class="header-link__mail" href="mailto:contactdanielrussell@gmail.com"></a>
+        </div>
+        <div class="header-title-section">
+            <h1 class="header-title">Daniel Russell</h1>
+            <p class="header-description">
+                Software Engineer
+            </p>
+        </div>
+        <svg class="down-arrow" height="32" viewBox="0 0 32 32" width="32" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+            <g class="nc-icon-wrapper" fill="#fafaff">
+                <path d="M16,20c-0.256,0-0.512-0.098-0.707-0.293L8.586,13L10,11.586l6,6l6-6L23.414,13l-6.707,6.707 C16.512,19.902,16.256,20,16,20z" fill="#fafaff">
+                </path>
+            </g>
+        </svg>
+    </div>
+
+    <div class="about">
+        <div class="about-inner-wrap">
+            <div class="profile-photo"></div>
+            <div class="about-text">
+                <h1>Quality apps. Delivered on time.</h1>
+                <p>
+                     Based in Los Angeles, CA, I'm currently the lead engineer on <b><a href="https://startpage.com" target="_blank">Startpage.com</a></b> - the world's most private search engine.
+                </p>
+                <p>
+                    Specialist in search and online advertising - I've contributed to open source advertising software projects like <b><a href="http://prebid.org/" target="_blank">Prebid.js</a></b>.
+                </p>
+                <p>
+                    I am passionate about building a culture dedicated to creating reproducable, test driven solutions that help teams thrive and deliver high-quality features on time.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-inner-wrap">
+            <h1 class="portfolio-title">Portfolio</h1>
+            <div id="portfolio-items">
+
+            </div>
+            <!-- <div class="portfolio-item">
+                <img class="portfolio-photo-desktop" src="./style/assets/startpage-desktop.jpg" />
+                <img class="portfolio-photo-mobile" src="./style/assets/startpage-mobile.jpg" />
+            </div> -->
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <a class="footer-link__github" href="https://github.com/danielrussellLA" target="_blank"></a>
+            <a class="footer-link__linkedin" href="https://www.linkedin.com/in/danielrussellla" target="_blank"></a>
+            <a class="footer-link__mail" href="mailto:contactdanielrussell@gmail.com"></a>
+        </div>
+    </div>
     <script src="./dist/bundle.js"></script>
 </body>
 </html>
