@@ -15,14 +15,11 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "browserify": "^16.2.3",
-    "canvas-sketch": "^0.2.0",
-    "canvas-sketch-util": "^1.6.0",
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "http": "0.0.0",
     "https": "^1.0.0",
     "morgan": "^1.9.1",
-    "nice-color-palettes": "^2.0.0",
     "watchify": "^3.11.0"
   },
   "devDependencies": {
