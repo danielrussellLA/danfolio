@@ -96,7 +96,7 @@ export default {
         anchor.target = '_blank';
         el.classList.add('portfolio-item');
         el.style.backgroundImage = `url("${imgPath}")`;
-        anchor.append(el);
+        anchor.appendChild(el);
         return anchor;
     },
 
@@ -105,7 +105,7 @@ export default {
             const portfolioContainer = document.querySelector(id);
             const { title, imgPath, link } = item;
             const el = this.createItem(title, imgPath, link);
-            portfolioContainer.append(el)
+            portfolioContainer.appendChild(el)
         });
     },
 

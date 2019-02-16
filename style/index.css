@@ -1,3 +1,8 @@
+@import './about.css';
+@import './footer.css';
+@import './header.css';
+@import './portfolio.css';
+
 html {
   box-sizing: border-box;
 }
