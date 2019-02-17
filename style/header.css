@@ -100,3 +100,6 @@
     position: absolute;
     bottom: 20px;
 }
+.down-arrow:hover {
+    cursor: pointer;
+}
