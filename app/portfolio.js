@@ -1,4 +1,4 @@
-const BASE_IMG_PATH = './style/assets/';
+import { BASE_IMG_PATH } from './constants';
 
 export default {
     items: [
