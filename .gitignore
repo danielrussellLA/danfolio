@@ -3,3 +3,5 @@ dist
 .DS_Store
 engineeringdan_com.crt
 private.key
+server_log.txt
+
