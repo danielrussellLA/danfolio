@@ -1,4 +1,4 @@
-const autoScroll = (selector, duration, offsetY) => {
+const smoothScroll = (selector, duration, offsetY) => {
     const element = document.querySelector(selector);
     const startingY = window.pageYOffset;
     const elementY = window.pageYOffset + element.getBoundingClientRect().top - (offsetY || 60);
@@ -35,7 +35,7 @@ export default {
     addDownArrowScrollEvent(aboutSectionSelector) {
         const downArrow = document.querySelector('.down-arrow')
         downArrow.addEventListener('click', () => {
-            autoScroll(aboutSectionSelector, 500);
+            smoothScroll(aboutSectionSelector, 500);
         });
     },
     init(aboutSectionSelector) {
