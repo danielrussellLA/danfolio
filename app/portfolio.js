@@ -3,11 +3,6 @@ import { BASE_IMG_PATH } from './constants';
 export default {
     items: [
         {
-            title: 'startpage.com',
-            imgPath: `${BASE_IMG_PATH}startpage-thumbnail.jpg`,
-            link: 'https://startpage.com'
-        },
-        {
             title: 'playhowstuffworks.com',
             imgPath: `${BASE_IMG_PATH}hsw-thumbnail.jpg`,
             link: 'https://play.howstuffworks.com'
